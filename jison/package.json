@@ -1,0 +1,20 @@
+{
+  "name": "jison",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec",
+    "min": "mocha -R min --recursive",
+    "watch": "mocha -R min --watch --recursive"
+  },
+  "dependencies": {
+    "jison": "^0.4.17"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "istanbul": "*",
+    "sinon":"*",
+    "number-to-words":"*"
+  }
+}
